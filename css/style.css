@@ -1,0 +1,178 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main {
+    background: url("/img/main_bg.jpg") no-repeat;
+    width: 1900px;
+    height: 1080px;
+    padding-top: 20px;
+}
+.wrapper {
+    position: relative;
+    margin: 0px 100px 30px 130px;
+}
+header {
+    position: relative;
+    text-align: center;
+}
+header a {
+    position: absolute;
+    right: 50px;
+    top: -10px;
+    font-family: Roboto;
+    font-size: 60px;
+    color: #7574b3;
+    font-weight: bold;
+    text-decoration: none;
+}
+span {
+    color: #ff8644;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background-color: white;
+}
+a:active {
+    background-color: #ff8644;
+}
+.input {
+    position: absolute;
+    width: 800px;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    height: 100px;
+}
+.input p {
+    font-family: Roboto;
+    font-size: 45px;
+    /* text-align: center; */
+    color: #7574b3;
+    display: inline-block;
+}
+.players {
+    height: 150px;
+    position: relative;
+}
+.circle {
+    position: absolute;
+    top: 44px;
+    right: 395px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    opacity: 0.4;
+    background-color: #ff0000;
+}
+#green {
+    background-color: #00ff00;
+}
+#blue {
+    background-color: #0000ff;
+}
+input {
+    position: absolute;
+    left: 280px;
+    top: 20px;
+    right: 30px;
+    width: 500px;
+    height: 60px;
+    border-radius: 10px;
+    border: solid 4px #7574b3;
+    background-color: #f9d8c6;
+    right: 50px;
+    font-size: 35px;
+}
+input:hover {
+    background-color: #7574b3;
+    color: #f9d8c6;
+    font-size: 35px;
+}
+#button {
+    left: 430px;
+    top: 860px;
+    width: 212px;
+    height: 63px;
+    border-radius: 10px;
+    border: solid 6px #ff8644;
+    background-color: #7574b3;
+    color: #ff8644;
+    font-family: Roboto;
+    font-size: 45px;
+    cursor: pointer;
+}
+#button:hover {
+    border: solid 6px #7574b3;
+    background-color: #ff8644;
+    color: #7574b3;
+}
+.results {
+    margin-top: 80px;
+    position: absolute;
+    right: 0px;
+}
+.heads {
+    margin-top: 60px;
+    width: 800px;
+    height: 300px;
+}
+.lev, .ryk, .pas, .tit {
+    margin: 0;
+    display: inline-block;
+}
+.circle_res_week {
+    margin-left: 80px;
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    background-color: #ff8644;
+    border-radius: 50%;
+}
+.circle_res_all {
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 65px;
+    /* left: 61px; */
+    display:block;
+    width: 147px;
+    height: 147px;
+    background-color: #7574b3;
+    border-radius: 50%;
+}
+.week_numbers {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15%;
+
+}
+.all_numbers {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 22%;
+}
+.heads img {
+    display: block;
+    margin-left: 90px;
+    margin-top: 130px;
+    box-shadow: aliceblue;
+}
+
+.fun_facts {
+    position: absolute;
+    right: 0px;
+    bottom: -800px;
+    font-size: 45px;
+    color:#7574b3;
+}
+.animation {
+    background-color: lightblue;
+    width: 1900px;
+    height: 1080px;
+}

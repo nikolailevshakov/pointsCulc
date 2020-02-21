@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TurPro</title>
+    <link rel="shortcut icon" href="/img/Logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class = 'wrapper'>
+            <header>
+                <img src="/img/Logo.png" alt="Турнир Прогнозистов">
+                    <a href="https://vk.com/turnirprognoz2019">Группа <span>вк</span></a>
+            </header>
+            <div class = 'input'>
+                <h1><p>Введите <span>прогнозы</span></p></h1>
+                <div class = 'players'>
+                    <p>Левшаков <br><span>Колямба</span></p>
+                    <div class = 'circle'></div>
+                    <input type="text" placeholder="00 11 22 33 44 55 66 77 88 99" id = 'Lev_score'>
+                </div>
+                <div class = 'players'>
+                    <p>Рыкованов <br><span>Жень-шень</span></p>
+                    <div class = 'circle' id = 'green'></div>
+                    <input type="text" placeholder="00 11 22 33 44 55 66 77 88 99" id = 'Ryk_score'>
+                </div>
+                <div class = 'players'>
+                    <p>Пасюк <br><span>Володька</span></p>
+                    <div class = 'circle' id = 'blue'></div>
+                    <input type="text" placeholder="00 11 22 33 44 55 66 77 88 99" id = 'Pas_score'>
+                </div>
+                <div class = 'players'>
+                    <p>Титов <br><span>Вовчик</span></p>
+                    <div class = 'circle'></div>
+                    <input type="text" placeholder="00 11 22 33 44 55 66 77 88 99" id = 'Tit_score'>
+                </div>
+                <div class = 'players'>
+                    <p>Результаты<br><span>матчей</span></p>
+                    <input type="text" placeholder="00 11 22 33 44 55 66 77 88 99" required id = 'scores'>
+                </div>
+                <input type="button" value = "Считаем" id = 'button'>
+            </div>
+            <div class = 'results'>
+                <div class = 'heads'>
+                    <div class = 'lev'>
+                        <div class = 'circle_res_week'>
+                            <div class="week_numbers"></div>
+                        </div>
+                        <div class = 'circle_res_all'>
+                            <div class="all_numbers"></div>
+                        </div>
+                        <img src="/img/lev.png" alt="Колямба">
+                    </div>
+                    <div class = 'ryk'>
+                        <div class = 'circle_res_week'>
+                            <div class="week_numbers"></div>
+                        </div>
+                        <div class = 'circle_res_all' >
+                            <div class="all_numbers"></div>
+                        </div>
+                        <img src="/img/ryk.png" alt="Жень-шень">
+                    </div>
+                    <div class = 'pas'>
+                        <div class = 'circle_res_week'>
+                            <div class="week_numbers"></div>
+                        </div>
+                        <div class = 'circle_res_all''>
+                            <div class="all_numbers"></div>
+                        </div>
+                        <img src="/img/pas.png" alt="Володька">
+                    </div>
+                    <div class = 'tit'>
+                        <div class = 'circle_res_week'>
+                            <div class="week_numbers"></div>
+                        </div>
+                        <div class = 'circle_res_all' >
+                            <div class="all_numbers"></div>
+                        </div>
+                        <img src="/img/tit.png" alt="Вовчик">
+                    </div>
+                </div>
+            </div>
+            <div class = 'fun_facts'>
+                <p>До конца сезона осталось <span>хх</span> дней</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="animation">
+
+    </div>
+</body>
+<script src = "/js/script.js"></script>
+</html> 
