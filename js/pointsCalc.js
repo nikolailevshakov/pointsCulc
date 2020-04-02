@@ -7,10 +7,10 @@ headBtn.addEventListener('click', function() {
 
     alert('done!');
     let allRes = { //Текущая таблица результатов - весь сезон
-        Lev: 12,
-        Ryk: 15,
-        Tit: 10,
-        Pas: 7,
+        Lev: 45,
+        Ryk: 43,
+        Tit: 34,
+        Pas: 35,
     };
 
     let gamesResults = [], LevResults = [], RykResults = [], TitResults = [], PasResults = [];
@@ -37,7 +37,9 @@ headBtn.addEventListener('click', function() {
             for (let i = 0; i<real.length ; ++i) {
                 let realDif = real[i][0] - real[i][1],
                     playerDif = player[i][0] - player[i][1];
-                if (real[i].toString() == player[i].toString()) {
+                if (isNaN(realDif) || isNaN(playerDif)) {
+                    weekPoints += 0;
+                } else if (real[i].toString() == player[i].toString()) {
                     weekPoints += 3;
                 } else if ((realDif) == (playerDif)) {
                     weekPoints += 2;
@@ -87,12 +89,6 @@ headBtn.addEventListener('click', function() {
     
 
 });
-
-
-
-
-
-
 
 
 
